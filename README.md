@@ -2,11 +2,11 @@
 
 Use this utility to replace text in a PDF file without having to edit the file with a bespoke PDF editor. This can only do basic replacements using regular expressions such as you might use on a text file using the 'sed' command e.g.
 
-	sed -e 's/[search pattern]/[replacement pattern/' -i textfile
+	sed -e 's/[search pattern]/[replacement pattern]/' -i textfile
 
 The equivalent for a PDF file is:
 
-	pdfreplacetxt file.pdf "search pattern" "replacement pattern"
+	pdfreplacetxt file.pdf "[search pattern]" "[replacement pattern]"
 
 # Watch out for:
 
