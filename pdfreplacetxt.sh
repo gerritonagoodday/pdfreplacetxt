@@ -18,7 +18,7 @@ Function:
   to use open-ended regexes such as \"*. etc\" for a search patternn.
 
 Example:
-  pdfsed ebook.pdf \"09 October\" \"10 October\"
+  ${0##*/} ebook.pdf \"09 October\" \"10 October\"
 
 Author:
   Gerrit Hoekstra. You can contact me via https://github.com/gerritonagoodday
